@@ -1,0 +1,32 @@
+.logoStyle img{
+
+    height:80px;
+    
+
+}
+.logoStyle{
+
+    text-align: center;
+}
+
+.logoStyle nav{
+
+    background-color: black;
+    line-height: 45px;
+    font-size: 20px;
+    text-align:right;
+}
+
+nav a{
+
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding : 5px;
+
+}
+
+nav a:hover{
+
+    background-color: coral;
+}
