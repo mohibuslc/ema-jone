@@ -11,5 +11,14 @@
 .product_name{
 
     color:blue;
-    font-weight: 300;
+    font-weight:100;
+}
+.main-button{
+
+    background-color: rgb(241, 213, 54);
+    width: 150px;
+    height: 30px;
+    border:1px solid black;
+    border-radius: 6px;
+    cursor: pointer;                                
 }
