@@ -29,9 +29,12 @@ else if ( total >0){
 const tax = Math.round(total/10);
 
 const grandtotal =(total+shipping+tax);
+
+
     return (
         <div>
             <h2>Order Summery</h2>
+            <p>Product name : {name}</p>
             <p>Iteam Length :  {cart.length}</p>
             <p>Total Price: {total}</p>
             <p><small> Tax + Vat : {tax}</small></p>
