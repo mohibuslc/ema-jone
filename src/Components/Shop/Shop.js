@@ -29,9 +29,7 @@ const handleAddProduct = (product) => {
                 
                     {
 
-                        products.map(pd => <Product
-
-                            handleAddProduct={handleAddProduct}
+            products.map(pd => <Product handleAddProduct={handleAddProduct}
                         
                         
                         
